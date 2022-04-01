@@ -1,0 +1,6 @@
+framework module Pods_ExaminationScheduleApp {
+  umbrella header "Pods-ExaminationScheduleApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

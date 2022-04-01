@@ -1,0 +1,664 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE7B599327DB2F0E008864DD /* FavoriteBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7B599227DB2F0E008864DD /* FavoriteBasic.swift */; };
+		CE7B599627DB2F57008864DD /* FavoriteRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7B599527DB2F57008864DD /* FavoriteRow.swift */; };
+		CE7B599927DB2F70008864DD /* FavoriteList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7B599827DB2F70008864DD /* FavoriteList.swift */; };
+		CE7B599C27DB2F88008864DD /* FavoriteList2.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7B599B27DB2F87008864DD /* FavoriteList2.swift */; };
+		CE7B599F27DB2F99008864DD /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7B599E27DB2F99008864DD /* FavoriteButton.swift */; };
+		CE7B59A227DB409C008864DD /* FavoriteDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7B59A127DB409C008864DD /* FavoriteDetailView.swift */; };
+		CE924A0C27D6FCCD0004CEE0 /* SDFView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE924A0B27D6FCCD0004CEE0 /* SDFView.swift */; };
+		CE924A1127D6FD070004CEE0 /* PGView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE924A1027D6FD070004CEE0 /* PGView.swift */; };
+		CE924A1427D6FD160004CEE0 /* CGView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE924A1327D6FD160004CEE0 /* CGView.swift */; };
+		CE924A1A27D6FD4B0004CEE0 /* PoliceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE924A1927D6FD4B0004CEE0 /* PoliceView.swift */; };
+		CE924A2227D6FFBB0004CEE0 /* PGExamBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE924A2127D6FFBB0004CEE0 /* PGExamBasic.swift */; };
+		CE924A2527D731540004CEE0 /* PGExamRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE924A2427D731540004CEE0 /* PGExamRow.swift */; };
+		CE924A2827D732230004CEE0 /* PGExamList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE924A2727D732230004CEE0 /* PGExamList.swift */; };
+		CE924A2B27D73DE90004CEE0 /* PGDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE924A2A27D73DE90004CEE0 /* PGDetailView.swift */; };
+		CEA6AB6927D3536700E76F0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA6AB6827D3536700E76F0B /* AppDelegate.swift */; };
+		CEA6AB6B27D3536700E76F0B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA6AB6A27D3536700E76F0B /* SceneDelegate.swift */; };
+		CEA6AB6D27D3536700E76F0B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA6AB6C27D3536700E76F0B /* ContentView.swift */; };
+		CEA6AB6F27D3537200E76F0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEA6AB6E27D3537200E76F0B /* Assets.xcassets */; };
+		CEA6AB7227D3537200E76F0B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEA6AB7127D3537200E76F0B /* Preview Assets.xcassets */; };
+		CEA6AB7527D3537200E76F0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA6AB7327D3537200E76F0B /* LaunchScreen.storyboard */; };
+		CEA6AB7E27D35B7400E76F0B /* ExamBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA6AB7D27D35B7400E76F0B /* ExamBasic.swift */; };
+		CEA6AB8427D36FA000E76F0B /* FavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA6AB8327D36FA000E76F0B /* FavoriteView.swift */; };
+		CEA8AD2427EC6165006AF058 /* ExaminationScheduleApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CEA8AD2227EC6165006AF058 /* ExaminationScheduleApp.xcdatamodeld */; };
+		CEA8AD2727EC62ED006AF058 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA8AD2627EC62ED006AF058 /* Home.swift */; };
+		CEA8AD2A27EC631E006AF058 /* NewDatailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA8AD2927EC631E006AF058 /* NewDatailView.swift */; };
+		CEA8AD2D27EC633F006AF058 /* DateButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA8AD2C27EC633F006AF058 /* DateButton.swift */; };
+		CEA8AD3027EC6355006AF058 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA8AD2F27EC6355006AF058 /* HomeViewModel.swift */; };
+		CEAACA0F27D9AA96003F8DAE /* PoliceDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAACA0E27D9AA96003F8DAE /* PoliceDetailView.swift */; };
+		CEAACA1227D9AABF003F8DAE /* PoliceExamRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAACA1127D9AABF003F8DAE /* PoliceExamRow.swift */; };
+		CEAACA1627D9AB0A003F8DAE /* PoliceExamBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAACA1527D9AB0A003F8DAE /* PoliceExamBasic.swift */; };
+		CEAACA1927D9AB1E003F8DAE /* PoliceExamList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAACA1827D9AB1E003F8DAE /* PoliceExamList.swift */; };
+		CEAACA1C27D9B22E003F8DAE /* WebBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAACA1B27D9B22E003F8DAE /* WebBasic.swift */; };
+		CEAACA2227D9BDE2003F8DAE /* FireView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAACA2127D9BDE2003F8DAE /* FireView.swift */; };
+		CEAACA2527D9BDF0003F8DAE /* FireDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAACA2427D9BDF0003F8DAE /* FireDetailView.swift */; };
+		CEAACA2827D9BE0F003F8DAE /* FireExamRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAACA2727D9BE0F003F8DAE /* FireExamRow.swift */; };
+		CEAACA2B27D9BE31003F8DAE /* FireExamBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAACA2A27D9BE31003F8DAE /* FireExamBasic.swift */; };
+		CEAACA2E27D9BE44003F8DAE /* FireExamList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAACA2D27D9BE44003F8DAE /* FireExamList.swift */; };
+		CEAACA3127D9D841003F8DAE /* SDFDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAACA3027D9D841003F8DAE /* SDFDetailView.swift */; };
+		CEAACA3427D9D857003F8DAE /* SDFExamRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAACA3327D9D857003F8DAE /* SDFExamRow.swift */; };
+		CEAACA3727D9D870003F8DAE /* SDFExamBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAACA3627D9D870003F8DAE /* SDFExamBasic.swift */; };
+		CEAACA3A27D9D884003F8DAE /* SDFExamList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAACA3927D9D884003F8DAE /* SDFExamList.swift */; };
+		CEAACA3D27D9E380003F8DAE /* CGDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAACA3C27D9E380003F8DAE /* CGDetailView.swift */; };
+		CEAACA4027D9E395003F8DAE /* CGExamRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAACA3F27D9E395003F8DAE /* CGExamRow.swift */; };
+		CEAACA4327D9E3A6003F8DAE /* CGExamBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAACA4227D9E3A6003F8DAE /* CGExamBasic.swift */; };
+		CEAACA4627D9E3BA003F8DAE /* CGExamList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAACA4527D9E3BA003F8DAE /* CGExamList.swift */; };
+		CEB7FD4427E9B4D000D9B5F1 /* ToDoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB7FD4327E9B4D000D9B5F1 /* ToDoListView.swift */; };
+		F3A4B902F3138CB69912A7B3 /* Pods_ExaminationScheduleApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D62A975F772A20FD83EA735 /* Pods_ExaminationScheduleApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0D62A975F772A20FD83EA735 /* Pods_ExaminationScheduleApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExaminationScheduleApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B21D2B8A3CB56D82FC2333D /* Pods-ExaminationScheduleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExaminationScheduleApp.debug.xcconfig"; path = "Target Support Files/Pods-ExaminationScheduleApp/Pods-ExaminationScheduleApp.debug.xcconfig"; sourceTree = "<group>"; };
+		6575B4BFE481A607A2D27775 /* Pods-ExaminationScheduleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExaminationScheduleApp.release.xcconfig"; path = "Target Support Files/Pods-ExaminationScheduleApp/Pods-ExaminationScheduleApp.release.xcconfig"; sourceTree = "<group>"; };
+		CE7B599227DB2F0E008864DD /* FavoriteBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteBasic.swift; sourceTree = "<group>"; };
+		CE7B599527DB2F57008864DD /* FavoriteRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteRow.swift; sourceTree = "<group>"; };
+		CE7B599827DB2F70008864DD /* FavoriteList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteList.swift; sourceTree = "<group>"; };
+		CE7B599B27DB2F87008864DD /* FavoriteList2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteList2.swift; sourceTree = "<group>"; };
+		CE7B599E27DB2F99008864DD /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
+		CE7B59A127DB409C008864DD /* FavoriteDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteDetailView.swift; sourceTree = "<group>"; };
+		CE924A0B27D6FCCD0004CEE0 /* SDFView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDFView.swift; sourceTree = "<group>"; };
+		CE924A1027D6FD070004CEE0 /* PGView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PGView.swift; sourceTree = "<group>"; };
+		CE924A1327D6FD160004CEE0 /* CGView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGView.swift; sourceTree = "<group>"; };
+		CE924A1927D6FD4B0004CEE0 /* PoliceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoliceView.swift; sourceTree = "<group>"; };
+		CE924A2127D6FFBB0004CEE0 /* PGExamBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PGExamBasic.swift; sourceTree = "<group>"; };
+		CE924A2427D731540004CEE0 /* PGExamRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PGExamRow.swift; sourceTree = "<group>"; };
+		CE924A2727D732230004CEE0 /* PGExamList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PGExamList.swift; sourceTree = "<group>"; };
+		CE924A2A27D73DE90004CEE0 /* PGDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PGDetailView.swift; sourceTree = "<group>"; };
+		CEA6AB6527D3536700E76F0B /* ExaminationScheduleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExaminationScheduleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA6AB6827D3536700E76F0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEA6AB6A27D3536700E76F0B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CEA6AB6C27D3536700E76F0B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CEA6AB6E27D3537200E76F0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEA6AB7127D3537200E76F0B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CEA6AB7427D3537200E76F0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEA6AB7627D3537200E76F0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEA6AB7D27D35B7400E76F0B /* ExamBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamBasic.swift; sourceTree = "<group>"; };
+		CEA6AB8327D36FA000E76F0B /* FavoriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteView.swift; sourceTree = "<group>"; };
+		CEA8AD2327EC6165006AF058 /* ExaminationScheduleApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ExaminationScheduleApp.xcdatamodel; sourceTree = "<group>"; };
+		CEA8AD2627EC62ED006AF058 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		CEA8AD2927EC631E006AF058 /* NewDatailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewDatailView.swift; sourceTree = "<group>"; };
+		CEA8AD2C27EC633F006AF058 /* DateButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateButton.swift; sourceTree = "<group>"; };
+		CEA8AD2F27EC6355006AF058 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		CEA8AD3527EC80BA006AF058 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		CEAACA0E27D9AA96003F8DAE /* PoliceDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoliceDetailView.swift; sourceTree = "<group>"; };
+		CEAACA1127D9AABF003F8DAE /* PoliceExamRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoliceExamRow.swift; sourceTree = "<group>"; };
+		CEAACA1527D9AB0A003F8DAE /* PoliceExamBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoliceExamBasic.swift; sourceTree = "<group>"; };
+		CEAACA1827D9AB1E003F8DAE /* PoliceExamList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoliceExamList.swift; sourceTree = "<group>"; };
+		CEAACA1B27D9B22E003F8DAE /* WebBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebBasic.swift; sourceTree = "<group>"; };
+		CEAACA2127D9BDE2003F8DAE /* FireView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireView.swift; sourceTree = "<group>"; };
+		CEAACA2427D9BDF0003F8DAE /* FireDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireDetailView.swift; sourceTree = "<group>"; };
+		CEAACA2727D9BE0F003F8DAE /* FireExamRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireExamRow.swift; sourceTree = "<group>"; };
+		CEAACA2A27D9BE31003F8DAE /* FireExamBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireExamBasic.swift; sourceTree = "<group>"; };
+		CEAACA2D27D9BE44003F8DAE /* FireExamList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireExamList.swift; sourceTree = "<group>"; };
+		CEAACA3027D9D841003F8DAE /* SDFDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDFDetailView.swift; sourceTree = "<group>"; };
+		CEAACA3327D9D857003F8DAE /* SDFExamRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDFExamRow.swift; sourceTree = "<group>"; };
+		CEAACA3627D9D870003F8DAE /* SDFExamBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDFExamBasic.swift; sourceTree = "<group>"; };
+		CEAACA3927D9D884003F8DAE /* SDFExamList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDFExamList.swift; sourceTree = "<group>"; };
+		CEAACA3C27D9E380003F8DAE /* CGDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGDetailView.swift; sourceTree = "<group>"; };
+		CEAACA3F27D9E395003F8DAE /* CGExamRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGExamRow.swift; sourceTree = "<group>"; };
+		CEAACA4227D9E3A6003F8DAE /* CGExamBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGExamBasic.swift; sourceTree = "<group>"; };
+		CEAACA4527D9E3BA003F8DAE /* CGExamList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGExamList.swift; sourceTree = "<group>"; };
+		CEB7FD4327E9B4D000D9B5F1 /* ToDoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEA6AB6227D3536700E76F0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3A4B902F3138CB69912A7B3 /* Pods_ExaminationScheduleApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9609A068D0EF198449721BF7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5B21D2B8A3CB56D82FC2333D /* Pods-ExaminationScheduleApp.debug.xcconfig */,
+				6575B4BFE481A607A2D27775 /* Pods-ExaminationScheduleApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B6446BCD5C65968F00B99196 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D62A975F772A20FD83EA735 /* Pods_ExaminationScheduleApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE9249FE27D63E5D0004CEE0 /* Police */ = {
+			isa = PBXGroup;
+			children = (
+				CE924A1927D6FD4B0004CEE0 /* PoliceView.swift */,
+				CEAACA0E27D9AA96003F8DAE /* PoliceDetailView.swift */,
+				CEAACA1127D9AABF003F8DAE /* PoliceExamRow.swift */,
+				CEAACA1527D9AB0A003F8DAE /* PoliceExamBasic.swift */,
+				CEAACA1827D9AB1E003F8DAE /* PoliceExamList.swift */,
+			);
+			path = Police;
+			sourceTree = "<group>";
+		};
+		CE9249FF27D63E880004CEE0 /* Firefighter */ = {
+			isa = PBXGroup;
+			children = (
+				CEAACA2127D9BDE2003F8DAE /* FireView.swift */,
+				CEAACA2427D9BDF0003F8DAE /* FireDetailView.swift */,
+				CEAACA2727D9BE0F003F8DAE /* FireExamRow.swift */,
+				CEAACA2A27D9BE31003F8DAE /* FireExamBasic.swift */,
+				CEAACA2D27D9BE44003F8DAE /* FireExamList.swift */,
+			);
+			path = Firefighter;
+			sourceTree = "<group>";
+		};
+		CE924A0027D63ED20004CEE0 /* CityGoverment */ = {
+			isa = PBXGroup;
+			children = (
+				CE924A1327D6FD160004CEE0 /* CGView.swift */,
+				CEAACA3C27D9E380003F8DAE /* CGDetailView.swift */,
+				CEAACA3F27D9E395003F8DAE /* CGExamRow.swift */,
+				CEAACA4227D9E3A6003F8DAE /* CGExamBasic.swift */,
+				CEAACA4527D9E3BA003F8DAE /* CGExamList.swift */,
+			);
+			path = CityGoverment;
+			sourceTree = "<group>";
+		};
+		CE924A0127D63F650004CEE0 /* PrefectoralGoverment */ = {
+			isa = PBXGroup;
+			children = (
+				CE924A1027D6FD070004CEE0 /* PGView.swift */,
+				CE924A2A27D73DE90004CEE0 /* PGDetailView.swift */,
+				CE924A2427D731540004CEE0 /* PGExamRow.swift */,
+				CE924A2127D6FFBB0004CEE0 /* PGExamBasic.swift */,
+				CE924A2727D732230004CEE0 /* PGExamList.swift */,
+			);
+			path = PrefectoralGoverment;
+			sourceTree = "<group>";
+		};
+		CE924A0927D6438D0004CEE0 /* SelfDefenseForces */ = {
+			isa = PBXGroup;
+			children = (
+				CE924A0B27D6FCCD0004CEE0 /* SDFView.swift */,
+				CEAACA3027D9D841003F8DAE /* SDFDetailView.swift */,
+				CEAACA3327D9D857003F8DAE /* SDFExamRow.swift */,
+				CEAACA3627D9D870003F8DAE /* SDFExamBasic.swift */,
+				CEAACA3927D9D884003F8DAE /* SDFExamList.swift */,
+			);
+			path = SelfDefenseForces;
+			sourceTree = "<group>";
+		};
+		CEA6AB5C27D3536700E76F0B = {
+			isa = PBXGroup;
+			children = (
+				CEA6AB6727D3536700E76F0B /* ExaminationScheduleApp */,
+				CEA6AB6627D3536700E76F0B /* Products */,
+				9609A068D0EF198449721BF7 /* Pods */,
+				B6446BCD5C65968F00B99196 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CEA6AB6627D3536700E76F0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEA6AB6527D3536700E76F0B /* ExaminationScheduleApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEA6AB6727D3536700E76F0B /* ExaminationScheduleApp */ = {
+			isa = PBXGroup;
+			children = (
+				CEA6AB8027D36F5300E76F0B /* ExamBasic */,
+				CE9249FE27D63E5D0004CEE0 /* Police */,
+				CE9249FF27D63E880004CEE0 /* Firefighter */,
+				CE924A0927D6438D0004CEE0 /* SelfDefenseForces */,
+				CE924A0127D63F650004CEE0 /* PrefectoralGoverment */,
+				CE924A0027D63ED20004CEE0 /* CityGoverment */,
+				CEA6AB8227D36F7C00E76F0B /* Favorite */,
+				CEB7FD4227E9B49E00D9B5F1 /* ToDoList */,
+				CEA6AB6827D3536700E76F0B /* AppDelegate.swift */,
+				CEA6AB6A27D3536700E76F0B /* SceneDelegate.swift */,
+				CEA6AB6C27D3536700E76F0B /* ContentView.swift */,
+				CEA6AB6E27D3537200E76F0B /* Assets.xcassets */,
+				CEA6AB7327D3537200E76F0B /* LaunchScreen.storyboard */,
+				CEA6AB7627D3537200E76F0B /* Info.plist */,
+				CEA6AB7027D3537200E76F0B /* Preview Content */,
+			);
+			path = ExaminationScheduleApp;
+			sourceTree = "<group>";
+		};
+		CEA6AB7027D3537200E76F0B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CEA6AB7127D3537200E76F0B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CEA6AB8027D36F5300E76F0B /* ExamBasic */ = {
+			isa = PBXGroup;
+			children = (
+				CEA6AB7D27D35B7400E76F0B /* ExamBasic.swift */,
+				CEAACA1B27D9B22E003F8DAE /* WebBasic.swift */,
+			);
+			path = ExamBasic;
+			sourceTree = "<group>";
+		};
+		CEA6AB8227D36F7C00E76F0B /* Favorite */ = {
+			isa = PBXGroup;
+			children = (
+				CEA6AB8327D36FA000E76F0B /* FavoriteView.swift */,
+				CE7B599227DB2F0E008864DD /* FavoriteBasic.swift */,
+				CE7B59A127DB409C008864DD /* FavoriteDetailView.swift */,
+				CE7B599527DB2F57008864DD /* FavoriteRow.swift */,
+				CE7B599827DB2F70008864DD /* FavoriteList.swift */,
+				CE7B599B27DB2F87008864DD /* FavoriteList2.swift */,
+				CE7B599E27DB2F99008864DD /* FavoriteButton.swift */,
+			);
+			path = Favorite;
+			sourceTree = "<group>";
+		};
+		CEB7FD4227E9B49E00D9B5F1 /* ToDoList */ = {
+			isa = PBXGroup;
+			children = (
+				CEB7FD4327E9B4D000D9B5F1 /* ToDoListView.swift */,
+				CEA8AD2227EC6165006AF058 /* ExaminationScheduleApp.xcdatamodeld */,
+				CEA8AD2627EC62ED006AF058 /* Home.swift */,
+				CEA8AD2927EC631E006AF058 /* NewDatailView.swift */,
+				CEA8AD2C27EC633F006AF058 /* DateButton.swift */,
+				CEA8AD2F27EC6355006AF058 /* HomeViewModel.swift */,
+			);
+			path = ToDoList;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEA6AB6427D3536700E76F0B /* ExaminationScheduleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEA6AB7927D3537200E76F0B /* Build configuration list for PBXNativeTarget "ExaminationScheduleApp" */;
+			buildPhases = (
+				EC2510F6EA6E6F71417B0EED /* [CP] Check Pods Manifest.lock */,
+				CEA6AB6127D3536700E76F0B /* Sources */,
+				CEA6AB6227D3536700E76F0B /* Frameworks */,
+				CEA6AB6327D3536700E76F0B /* Resources */,
+				373A0CCD9ED193253D07B547 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExaminationScheduleApp;
+			productName = ExaminationScheduleApp;
+			productReference = CEA6AB6527D3536700E76F0B /* ExaminationScheduleApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEA6AB5D27D3536700E76F0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					CEA6AB6427D3536700E76F0B = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = CEA6AB6027D3536700E76F0B /* Build configuration list for PBXProject "ExaminationScheduleApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ja,
+			);
+			mainGroup = CEA6AB5C27D3536700E76F0B;
+			productRefGroup = CEA6AB6627D3536700E76F0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEA6AB6427D3536700E76F0B /* ExaminationScheduleApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEA6AB6327D3536700E76F0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA6AB7527D3537200E76F0B /* LaunchScreen.storyboard in Resources */,
+				CEA6AB7227D3537200E76F0B /* Preview Assets.xcassets in Resources */,
+				CEA6AB6F27D3537200E76F0B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		373A0CCD9ED193253D07B547 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ExaminationScheduleApp/Pods-ExaminationScheduleApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ExaminationScheduleApp/Pods-ExaminationScheduleApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ExaminationScheduleApp/Pods-ExaminationScheduleApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC2510F6EA6E6F71417B0EED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ExaminationScheduleApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEA6AB6127D3536700E76F0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEAACA2E27D9BE44003F8DAE /* FireExamList.swift in Sources */,
+				CE924A2527D731540004CEE0 /* PGExamRow.swift in Sources */,
+				CEA8AD2727EC62ED006AF058 /* Home.swift in Sources */,
+				CE924A0C27D6FCCD0004CEE0 /* SDFView.swift in Sources */,
+				CE7B599F27DB2F99008864DD /* FavoriteButton.swift in Sources */,
+				CEAACA2227D9BDE2003F8DAE /* FireView.swift in Sources */,
+				CEA6AB6927D3536700E76F0B /* AppDelegate.swift in Sources */,
+				CE7B599927DB2F70008864DD /* FavoriteList.swift in Sources */,
+				CEA6AB6B27D3536700E76F0B /* SceneDelegate.swift in Sources */,
+				CEAACA2B27D9BE31003F8DAE /* FireExamBasic.swift in Sources */,
+				CEAACA3727D9D870003F8DAE /* SDFExamBasic.swift in Sources */,
+				CEAACA4627D9E3BA003F8DAE /* CGExamList.swift in Sources */,
+				CEAACA1C27D9B22E003F8DAE /* WebBasic.swift in Sources */,
+				CEA8AD2A27EC631E006AF058 /* NewDatailView.swift in Sources */,
+				CEAACA3D27D9E380003F8DAE /* CGDetailView.swift in Sources */,
+				CEA8AD2427EC6165006AF058 /* ExaminationScheduleApp.xcdatamodeld in Sources */,
+				CE7B599627DB2F57008864DD /* FavoriteRow.swift in Sources */,
+				CE924A1A27D6FD4B0004CEE0 /* PoliceView.swift in Sources */,
+				CE924A1127D6FD070004CEE0 /* PGView.swift in Sources */,
+				CE924A2B27D73DE90004CEE0 /* PGDetailView.swift in Sources */,
+				CEAACA4027D9E395003F8DAE /* CGExamRow.swift in Sources */,
+				CEAACA1927D9AB1E003F8DAE /* PoliceExamList.swift in Sources */,
+				CEA8AD3027EC6355006AF058 /* HomeViewModel.swift in Sources */,
+				CE7B599327DB2F0E008864DD /* FavoriteBasic.swift in Sources */,
+				CEB7FD4427E9B4D000D9B5F1 /* ToDoListView.swift in Sources */,
+				CE924A2227D6FFBB0004CEE0 /* PGExamBasic.swift in Sources */,
+				CE924A1427D6FD160004CEE0 /* CGView.swift in Sources */,
+				CE924A2827D732230004CEE0 /* PGExamList.swift in Sources */,
+				CE7B59A227DB409C008864DD /* FavoriteDetailView.swift in Sources */,
+				CEAACA3A27D9D884003F8DAE /* SDFExamList.swift in Sources */,
+				CE7B599C27DB2F88008864DD /* FavoriteList2.swift in Sources */,
+				CEAACA4327D9E3A6003F8DAE /* CGExamBasic.swift in Sources */,
+				CEA6AB6D27D3536700E76F0B /* ContentView.swift in Sources */,
+				CEAACA0F27D9AA96003F8DAE /* PoliceDetailView.swift in Sources */,
+				CEA8AD2D27EC633F006AF058 /* DateButton.swift in Sources */,
+				CEAACA3127D9D841003F8DAE /* SDFDetailView.swift in Sources */,
+				CEAACA2527D9BDF0003F8DAE /* FireDetailView.swift in Sources */,
+				CEAACA1227D9AABF003F8DAE /* PoliceExamRow.swift in Sources */,
+				CEAACA1627D9AB0A003F8DAE /* PoliceExamBasic.swift in Sources */,
+				CEA6AB8427D36FA000E76F0B /* FavoriteView.swift in Sources */,
+				CEAACA3427D9D857003F8DAE /* SDFExamRow.swift in Sources */,
+				CEA6AB7E27D35B7400E76F0B /* ExamBasic.swift in Sources */,
+				CEAACA2827D9BE0F003F8DAE /* FireExamRow.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CEA6AB7327D3537200E76F0B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEA6AB7427D3537200E76F0B /* Base */,
+				CEA8AD3527EC80BA006AF058 /* ja */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEA6AB7727D3537200E76F0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEA6AB7827D3537200E76F0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEA6AB7A27D3537200E76F0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B21D2B8A3CB56D82FC2333D /* Pods-ExaminationScheduleApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ExaminationScheduleApp/Preview Content\"";
+				DEVELOPMENT_TEAM = WJN23KXD6K;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ExaminationScheduleApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.tfd20200722.ExaminationScheduleApp331;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		CEA6AB7B27D3537200E76F0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6575B4BFE481A607A2D27775 /* Pods-ExaminationScheduleApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ExaminationScheduleApp/Preview Content\"";
+				DEVELOPMENT_TEAM = WJN23KXD6K;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ExaminationScheduleApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.tfd20200722.ExaminationScheduleApp331;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEA6AB6027D3536700E76F0B /* Build configuration list for PBXProject "ExaminationScheduleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA6AB7727D3537200E76F0B /* Debug */,
+				CEA6AB7827D3537200E76F0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEA6AB7927D3537200E76F0B /* Build configuration list for PBXNativeTarget "ExaminationScheduleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA6AB7A27D3537200E76F0B /* Debug */,
+				CEA6AB7B27D3537200E76F0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CEA8AD2227EC6165006AF058 /* ExaminationScheduleApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CEA8AD2327EC6165006AF058 /* ExaminationScheduleApp.xcdatamodel */,
+			);
+			currentVersion = CEA8AD2327EC6165006AF058 /* ExaminationScheduleApp.xcdatamodel */;
+			path = ExaminationScheduleApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CEA6AB5D27D3536700E76F0B /* Project object */;
+}
