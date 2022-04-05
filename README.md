@@ -1,4 +1,4 @@
-# ExaminationScheduleApp
+# ExaminationScheduleApp(AppStoreに公開中)
 
 ![Image1 (1)](https://user-images.githubusercontent.com/98800328/161230958-adecdd07-5e02-41eb-a150-37f000feced6.png)
 
